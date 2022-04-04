@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "phlearning"
+version = "0.1.0"
+description = "Development of the algorithm for simulation of Physics-Driven Machine Learning"
+authors = ["uhatikus <uhatov007@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PySpice = "^1.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
